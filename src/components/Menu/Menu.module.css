@@ -1,0 +1,29 @@
+.menu{
+    grid-area: menu;  
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 0px;
+    border-right: 1px solid rgb(231, 231, 231);    
+}
+.menu:hover{
+    overflow-y: scroll;
+}
+.menuItem{    
+    list-style-type: none;      
+}
+.menuItem a{
+    display: block;
+    color: #000;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.menuItem a:hover{
+    color: #1890ff;
+}
+.menuItem a.activeLink{
+    background: #daedfd;
+    color: #1890ff;
+    border-right: 3px solid #1890ff;
+}

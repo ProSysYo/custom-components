@@ -1,9 +1,15 @@
-.wrap{
-    width: 100%;
-    max-width: 1000px;    
+.wrap{    
+    width: 100%;    
+    min-height: 98vh;
+    max-width: 1200px;    
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    box-sizing: border-box;   
-    border: 1px solid;
+    box-sizing: border-box; 
+    display: grid;
+	grid-template-columns: 3fr 9fr;
+	grid-template-rows: 50px auto;
+	grid-template-areas: "header header"
+                         "menu content";
+    grid-row-gap: 40px;
 }

@@ -1,9 +1,11 @@
 .header{
+    grid-area: header;
     display: flex;
     background: #fff;   
     justify-content: space-between;
     align-items: center;
     height: 50px;
+    border-bottom: 1px solid rgb(231, 231, 231);    
 }
 .logo{
     display: flex;
