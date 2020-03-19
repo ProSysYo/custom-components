@@ -18,6 +18,7 @@ const Menu = () => {
             <MenuItem to='/checkbox' name='Checkbox'></MenuItem> 
             <MenuItem to='/table' name='Table'></MenuItem> 
             <MenuItem to='/form' name='Form'></MenuItem>
+            <MenuItem to='/modal' name='Modal'></MenuItem>
             <MenuItem to='/card' name='Card'></MenuItem>
             <MenuItem to='/crud' name='CRUD react+redux'></MenuItem>  
             <MenuItem to='/other' name='Other'></MenuItem>                
