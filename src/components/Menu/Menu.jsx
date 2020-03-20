@@ -21,7 +21,8 @@ const Menu = () => {
             <MenuItem to='/modal' name='Modal'></MenuItem>
             <MenuItem to='/card' name='Card'></MenuItem>
             <MenuItem to='/crud' name='CRUD react+redux'></MenuItem>  
-            <MenuItem to='/other' name='Other'></MenuItem>                
+            <MenuItem to='/other' name='Other'></MenuItem>
+            <MenuItem to='/testmirage' name='Test Mirage.js'></MenuItem>              
         </div>
     )
 }
