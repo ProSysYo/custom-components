@@ -1,0 +1,15 @@
+.tableWrap{
+    padding: 10px;    
+}
+table{
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid grey;
+    padding: 5px;
+}
+tr:hover{
+    color: #1890ff;
+    background: rgb(233, 227, 227);
+    cursor: pointer; 
+}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import Input from "../../components/Input/Input";
+import TableUsers from "./TableUers/TableUsers";
 
 const TestMirage = () => {
   let [users, setUsers] = useState([]);
@@ -13,14 +13,10 @@ const TestMirage = () => {
   }, []);
 
   return (
-    <ul data-testid="users">
-      {users.map(user => (
-        <li key={user.id} >
-            <Input value={user.name}/>
-            <br/>       
-        </li>
-      ))}
-    </ul>
+      <div>
+          <TableUsers users={users}/>
+      </div>
+    
   )
 }
 
